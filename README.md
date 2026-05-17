@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PhishGuard AI
 
-## Getting Started
+PhishGuard AI is a phishing detection web application that analyses suspicious URLs and message content using heuristic-based threat analysis and live threat intelligence feeds.
 
-First, run the development server:
+The project was designed to demonstrate practical approaches to phishing detection, risk scoring, and cybersecurity-focused web application development.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- URL and domain risk analysis
+- Typo-squatting detection
+- Suspicious TLD identification
+- Credential harvesting pattern detection
+- Urgency and phishing language indicators
+- Threat intelligence integration using public phishing feeds
+- Real-time phishing risk scoring
+- Responsive cybersecurity-focused user interface
+- Public cloud deployment via Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Vercel
+- GitHub
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Threat Intelligence & Detection Logic
 
-## Deploy on Vercel
+The application combines multiple heuristic checks and threat intelligence sources to identify potentially malicious or suspicious content.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Detection indicators include:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Suspicious domain structures
+- Common phishing language patterns
+- Domain impersonation attempts
+- Urgency-based messaging
+- Known phishing domain validation using public threat feeds
+
+---
+
+## Live Demo
+
+https://phishguard-ai-xi.vercel.app/
+
+---
+
+## Project Goals
+
+This project was created to:
+
+- Explore practical phishing detection techniques
+- Improve understanding of threat analysis and risk scoring
+- Build a full-stack cybersecurity-focused application
+- Gain hands-on experience with deployment and modern web technologies
+
+
+## Future Improvements
+
+- Machine learning-assisted phishing classification
+- Expanded threat intelligence integrations
+- User authentication and reporting dashboard
+- Historical scan tracking
+- API integration for automated scanning workflows
+
+---
+
+## Author
+
+Victoria Alkhimova
+
